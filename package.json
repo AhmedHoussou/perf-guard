@@ -1,0 +1,22 @@
+{
+  "name": "perf-guard",
+  "version": "1.0.0",
+  "description": "Automated Performance SLA & Latency Regression Gatekeeper",
+  "type": "module",
+  "bin": {
+    "perf-guard": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
